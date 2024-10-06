@@ -4,4 +4,4 @@ Step to use this service
 3. setup config database in env
 4. run command composer install
 6. run command php artisan migrate
-7. run command php artisan make:seeder RoleSeeder
+7. run command php artisan db:seed --class=RoleSeeder
